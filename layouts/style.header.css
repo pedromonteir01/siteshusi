@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(23, 23, 23);
+    margin: 0;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav li {
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+    color: white;
+}
+
+nav a:hover {
+    color: orangered;
+    background-color: rgba(237, 118, 75, 0.36);
+    border-radius: 5px;
+}
+
+nav {
+    padding-top: 20px;
+}
+
+@font-face {
+    font-family: japones;
+    src: url(../assets/fonts/HIROMISAKE.ttf);
+}
+
+h1 {
+    font-family: japones;
+}
+
+img {
+    width: 64px;
+    height: 64px;
+}
