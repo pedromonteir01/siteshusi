@@ -1,9 +1,10 @@
 body {
+    margin: 0%;
     display: flex;
     background-image: linear-gradient(salmon, white);
     flex-direction: column;
     align-items: center;
-    padding: 114px;
+    padding: 50px;
 }
 
 .rain1 {
@@ -15,6 +16,7 @@ body {
 form {
     display: flex;
     flex-direction: column;
+    margin-bottom: 20px;
 }
 
 .campos {
@@ -38,7 +40,7 @@ input {
 
 #comentario {
     border-radius: 15px;
-    padding-top: 10px;
-    padding-bottom: 90px;
+    padding-top: 30px;
+    padding-bottom: 45px;
 
 }
