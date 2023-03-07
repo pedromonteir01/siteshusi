@@ -1,3 +1,4 @@
+
 @font-face {
     font-family: japones;
     src: url(../fonts/HIROMISAKE.ttf);
@@ -5,7 +6,9 @@
 
 body{
     margin: 0%;
-    font-family: japonesa;
+    font-family: japones;
+
+
 }
 
 main{
@@ -95,6 +98,7 @@ article{
 
 .image img{
     margin: 20px;
+
 }
 
 .image{

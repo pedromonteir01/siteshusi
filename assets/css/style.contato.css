@@ -4,14 +4,20 @@ body {
     background-image: linear-gradient(salmon, white);
     flex-direction: column;
     align-items: center;
-    padding: 50px;
+    font-family: japones;
+    src: url(../fonts/HIROMISAKE.ttf);
+    padding: 0;
+}
+
+@font-face {
+    font-family: japones;
+    src: url(../fonts/HIROMISAKE.ttf);
 }
 
 .rain1 {
     font-size: 20px;
     padding-top: 10px;
 }
-
 
 form {
     display: flex;
@@ -29,6 +35,10 @@ button {
     margin-top: 20px;
     padding: 15px;
     border-radius: 15px;
+    background-color: white;
+    color: black;
+    font-size: 14px;
+
 }
 
 input {
@@ -36,11 +46,13 @@ input {
     padding-bottom: 10px;
     width: 450px;
     border-radius: 15px;
+    src: url(../fonts/HIROMISAKE.ttf);
 }
 
 #comentario {
     border-radius: 15px;
-    padding-top: 30px;
-    padding-bottom: 45px;
+    padding-top: 12px;
+    padding-bottom: 50px;
+    src: url(../fonts/HIROMISAKE.ttf);
 
 }
