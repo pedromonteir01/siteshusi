@@ -1,10 +1,17 @@
 body {
     text-align: center;
 }
+
+@font-face {
+    font-family: japones;
+    src: url(../fonts/HIROMISAKE.ttf);
+}
 h1 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: japones;
 }
 a {
     font-size: 20px;
     text-decoration: none;
+    border: solid black;
+    font-family: japones;
 }
