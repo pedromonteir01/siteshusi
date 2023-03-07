@@ -8,27 +8,31 @@
 </head>
 
 <body>
+    <iframe src="../layouts/header.html" frameborder="0" scrolling="no" width="100%" height="225px"></iframe>
     <h1>Deixe um comentário</h1>
-    <form>
+    <form action="../pages/sucesso.html">
         <div class="campos">
             <label class="rain1">Nome:</label>
-            <input type="text" placeholder="Digite seu nome">
+            <input type="text" placeholder="Digite seu nome" required>
         </div>
 
         <div class="campos">
             <label class="rain1">E-mail:</label>
-            <input type="text" placeholder="Digite seu e-mail">
+            <input type="text" placeholder="Digite seu e-mail" required>
         </div>
 
         <div class="campos">
             <label class="rain1">Comentário:</label>
-            <input id="comentario" type="text" placeholder="Deixe seu comentário">
+            <input id="comentario" type="text" placeholder="Deixe seu comentário" required>
         </div>
 
         <button>Enviar</button>
 
 
     </form>
+    <footer>
+        <iframe src="../layouts/footer.html" frameborder="0" scrolling="no" width="1258" height="150px"></iframe>
+    </footer>
 
 </body>
 
