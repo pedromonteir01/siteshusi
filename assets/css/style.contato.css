@@ -1,16 +1,16 @@
 body {
     display: flex;
-    background-color: white;
+    background-image: linear-gradient(salmon, white);
     flex-direction: column;
     align-items: center;
-    padding: 60px;
+    padding: 114px;
 }
 
 .rain1 {
     font-size: 20px;
-    padding-bottom: 10px;
     padding-top: 10px;
 }
+
 
 form {
     display: flex;
@@ -20,8 +20,25 @@ form {
 .campos {
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 button {
     margin-top: 20px;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+input {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 450px;
+    border-radius: 15px;
+}
+
+#comentario {
+    border-radius: 15px;
+    padding-top: 10px;
+    padding-bottom: 90px;
+
 }
