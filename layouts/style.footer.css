@@ -1,3 +1,7 @@
+@font-face {
+    font-family: japones;
+    src: url(../assets/fonts/HIROMISAKE.ttf);
+}
 body {
     background-color: rgb(23,23,23);
     text-align: center;
@@ -8,4 +12,7 @@ body {
 img {
     width: 64px;
     height: 64px;
+}
+h1{
+    font-family: japones;
 }
