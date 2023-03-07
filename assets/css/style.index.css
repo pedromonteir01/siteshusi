@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
-
 @font-face {
     font-family: japones;
     src: url(../fonts/HIROMISAKE.ttf);
@@ -7,33 +5,39 @@
 
 body{
     margin: 0%;
-    font-family: japones;
+    font-family: japonesa;
 }
 
 main{
     text-align: center;
 }
 
+.rodizio img{
+    margin: 20px;
+}
+
+h1{
+    font-family: japones;
+}
+
 .container{
+    font-family: japones;
     background-color: whitesmoke;
     border: 2px solid black;
     border-left: 5px solid red;
     border-radius: 5px;
     margin: 20px;
     box-shadow: 1px 1px 2px 2px rgb(159, 159, 159);
-    font-family: japones;
 }
 .container h2{
+    font-family: japones;
     text-align: left;
     padding-left: 50px;
 }
 
 .container p{
     padding-bottom: 50px;
-}
-
-.container img{
-    margin: 20px;
+    font-family: japones;
 }
 
 .rodizio{
@@ -51,6 +55,7 @@ main{
     border-radius: 5px;
     margin: 20px;
     box-shadow: 1px 1px 2px 2px rgb(159, 159, 159);
+    font-family: japones;
 }
 
 article{
@@ -77,15 +82,19 @@ article{
     border-left: 5px solid red;
     border-radius: 5px;
     height: fit-content;
+    font-family: japones;
 
 }
 
 .image p{
-    width: 60%;
     font-size: 10px;
     text-align: center;
-    padding-left: 75px;
-    padding: 20px;
+    width: 60%;
+    margin: 10px;
+}
+
+.image img{
+    margin: 20px;
 }
 
 .image{
@@ -98,9 +107,4 @@ article{
     border-radius: 5px;
     margin: 20px;
     box-shadow: 1px 1px 2px 2px rgb(159, 159, 159);
-.h1_depoimentos{
-    text-align: center;
-}
-#card_joao{
-
 }
