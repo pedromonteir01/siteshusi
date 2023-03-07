@@ -3,7 +3,7 @@ body {
     background-image: linear-gradient(salmon, white);
     flex-direction: column;
     align-items: center;
-    padding:0%;
+    padding: 50px;
 }
 
 .rain1 {
