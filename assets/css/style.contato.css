@@ -1,4 +1,5 @@
 body {
+    margin: 0%;
     display: flex;
     background-image: linear-gradient(salmon, white);
     flex-direction: column;
@@ -15,6 +16,7 @@ body {
 form {
     display: flex;
     flex-direction: column;
+    margin-bottom: 20px;
 }
 
 .campos {
