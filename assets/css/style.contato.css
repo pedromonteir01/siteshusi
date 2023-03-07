@@ -18,6 +18,10 @@ body {
     padding-top: 10px;
 }
 
+.rain1::-webkit-input-placeholder{
+    color: brown;
+}
+
 
 form {
     display: flex;
@@ -29,12 +33,15 @@ form {
     display: flex;
     flex-direction: column;
     width: 100%;
+    src: url(../fonts/HIROMISAKE.ttf);
 }
 
 button {
     margin-top: 20px;
     padding: 15px;
     border-radius: 15px;
+    background-color: white;
+
 }
 
 input {
@@ -42,11 +49,13 @@ input {
     padding-bottom: 10px;
     width: 450px;
     border-radius: 15px;
+    src: url(../fonts/HIROMISAKE.ttf);
 }
 
 #comentario {
     border-radius: 15px;
     padding-top: 12px;
     padding-bottom: 50px;
+    src: url(../fonts/HIROMISAKE.ttf);
 
 }
