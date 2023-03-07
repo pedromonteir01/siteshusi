@@ -46,3 +46,16 @@ nav {
     padding-top: 20px;
 }
 
+@font-face {
+    font-family: japones;
+    src: url(../assets/fonts/HIROMISAKE.ttf);
+}
+
+h1 {
+    font-family: japones;
+}
+
+img {
+    width: 64px;
+    height: 64px;
+}
