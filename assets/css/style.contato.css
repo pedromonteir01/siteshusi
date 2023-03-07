@@ -4,7 +4,13 @@ body {
     background-image: linear-gradient(salmon, white);
     flex-direction: column;
     align-items: center;
-    padding: 50px;
+    font-family: japones;
+    src: url(../fonts/HIROMISAKE.ttf);
+}
+
+@font-face {
+    font-family: japones;
+    src: url(../fonts/HIROMISAKE.ttf);
 }
 
 .rain1 {
@@ -40,7 +46,7 @@ input {
 
 #comentario {
     border-radius: 15px;
-    padding-top: 30px;
-    padding-bottom: 45px;
+    padding-top: 12px;
+    padding-bottom: 50px;
 
 }
