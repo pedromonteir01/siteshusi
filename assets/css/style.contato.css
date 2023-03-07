@@ -4,14 +4,24 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 60px;
+    margin: auto;
+    border-radius: 25px;
+    width: 50%;
 }
 
-#rain1 {
-    padding: 10px;
+.rain1 {
     font-size: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
-#rain2 {
-    padding: 10px;
-    font-size: 20px;
+form {
+    display: flex;
+    flex-direction: column;
 }
+
+.campos {
+    display: flex;
+    flex-direction: column;
+}
+
